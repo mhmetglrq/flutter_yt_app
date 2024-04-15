@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'colors_page.dart';
+
 void main() {
   runApp(const MainApp());
 }
@@ -10,7 +12,7 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Container(),
+      home: const ColorsPage(),
       theme: ThemeData(
         primarySwatch: Colors.blue,
         useMaterial3: true,
